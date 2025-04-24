@@ -1,0 +1,5 @@
++ rm -rf site
++ git clone https://github.com/pulkitraj9897/pulkit9897.github.io.git site
+Cloning into 'site'...
++ cd site
++ cp -r ../site ../. ../.. .
