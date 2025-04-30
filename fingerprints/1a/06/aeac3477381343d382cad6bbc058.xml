@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2025-04-30 19:47:03.932 UTC</timestamp>
+  <md5sum>1a06aeac3477381343d382cad6bbc058</md5sum>
+  <fileName>Credential id=devops name=devops</fileName>
+  <usages>
+    <entry>
+      <string>Devops project</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@968.v8f17397e87b_8">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@4106.v7a_8a_8176d450">
+    <parentIds>
+      <string>4</string>
+    </parentIds>
+    <id>5</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@4106.v7a_8a_8176d450">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>LOCAL_PROJECT_DIR=/var/local/flask-site</string>
+            <string>GITHUB_REPO=https://github.com/pulkitraj9897/pulkit9897.github.io.git</string>
+            <string>BRANCH_NAME=main</string>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1371.ve334280b_d611">
+      <startTime>1746042420066</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>
